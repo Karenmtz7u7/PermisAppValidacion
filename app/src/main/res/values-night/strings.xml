@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cerrarsesion">Cerrar sesión</string>
+    <string name="cerrarpregunta">¿Deseas cerrar sesión?</string>
+    <string name="horario">Aun no has agregado tu horario \n Pulsa aquí para subirlo</string>
+    <string name="guardar_cambios">Guardar cambios</string>
+    <string name="datos">Agrega tus datos</string>
+
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="registrardatos">Es importante que registres todos tus datos para poder hacer uso de esta Aplicacion</string>
+</resources>

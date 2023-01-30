@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheet"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bottom_sheet_background"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:gravity="center">
+        <View
+            android:id="@+id/line_2"
+            android:layout_width="60dp"
+            android:layout_height="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/line_2" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Menú"
+            android:textAppearance="@style/informaci_n"
+            android:background="@color/grischido"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:id="@+id/miperfilbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <View
+                android:layout_width="22dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_person_24"/>
+
+            <TextView
+                android:id="@+id/perfilbtn"
+                android:textAppearance="@style/nombre_de_u"
+                android:layout_marginStart="15dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/poppins"
+                android:layout_height="match_parent"
+                android:text="Mi perfil"
+                android:textSize="15sp"
+                 />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/misnotificacionesbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <View
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@drawable/ic_notifications_24"/>
+
+            <TextView
+                android:id="@+id/notificacionesbtn"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/poppins"
+                android:textAppearance="@style/nombre_de_u"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Notificaciones"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/mihistorialbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <View
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@drawable/ic_history_24"/>
+
+            <TextView
+                android:id="@+id/historialsolibtn"
+                android:layout_marginStart="15dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/poppins"
+                android:layout_height="match_parent"
+                android:text="Historial de solicitudes"
+                android:textAppearance="@style/nombre_de_u"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/miestadobtn"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <View
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@drawable/ic_check_24"/>
+
+            <TextView
+                android:layout_marginStart="15dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/poppins"
+                android:layout_height="match_parent"
+                android:text="Estado de solicitudes"
+                android:textAppearance="@style/nombre_de_u"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:textAppearance="@style/informaci_n"
+            android:text="Cuenta"
+            android:textStyle="bold"
+            android:background="@color/grischido"
+            android:fontFamily="@font/poppins"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/subirhorario"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <View
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@drawable/ic_upload"/>
+
+            <TextView
+                android:layout_marginStart="15dp"
+                android:layout_width="match_parent"
+                android:fontFamily="@font/poppins"
+                android:layout_height="match_parent"
+                android:text="Subir horario"
+                android:textAppearance="@style/nombre_de_u"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/salirbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <View
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@drawable/ic_output_24"/>
+
+            <TextView
+                android:layout_marginStart="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/poppins"
+                android:text="Cerrar sesión"
+                android:textAppearance="@style/nombre_de_u"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
